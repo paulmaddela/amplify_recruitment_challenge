@@ -1,0 +1,5 @@
+language: r
+
+install:
+  - R -e "0" --args --bootstrap-packrat
+  - R -e "packrat::restore(restart = FALSE)"
