@@ -1,7 +1,9 @@
 language: r
 
 sudo: false
-cache: packages
+cache: 
+  directories: $TRAVIS_BUILD_DIR/packrat/
+  packages: true
 install:
   - R -e "0" --args --bootstrap-packrat
 warnings_are_errors: false 
