@@ -7,5 +7,5 @@ Order of code
 
 Output plots are present in the folder output/plots
 
-Since packarat was used, this code should run on any other system
+Since packrat was used, this code should run on any other system
 
