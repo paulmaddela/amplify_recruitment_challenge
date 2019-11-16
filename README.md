@@ -1,2 +1,11 @@
 # amplify_recruitment_challenge
-My solution for the Amplify Analytix recruitment challenge 
+
+Order of code
+1. preprocessing.R 
+2. clickthrough_analysis.R
+3. Modelling.R
+
+Output plots are present in the folder output/plots
+
+Since packarat was used, this code should run on any other system
+
